@@ -19,6 +19,7 @@ format = """$username\
             $container\
             $shell\
             $character"""
+
 [character]
 format = '$symbol '
 success_symbol = '[>](bright-black)'
@@ -30,7 +31,9 @@ show_always = true
 format = '[$user]($style) @ '
 
 [hostname]
-disabled = true
+ssh_only = true  # Only show when over SSH
+format = "on [$hostname](bold yellow) "  # Customize the style here
+
 
 [directory]
 format = '[](white)\[[$path]($style)[$read_only]($read_only_style)\]'
@@ -63,3 +66,4 @@ symbol = 'rust'
 [cmd_duration]
 min_time = 1
 format = '\[[$duration]($style)\]'
+
