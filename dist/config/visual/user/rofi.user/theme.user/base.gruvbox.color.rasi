@@ -1,0 +1,25 @@
+/* ref: https://github.com/morhetz/gruvbox */
+
+* {
+    gruvbox-dark-bg0-hard:     #1d2021;        /* Darker background color */
+    gruvbox-dark-bg0:          #282828;        /* Base background color */
+    gruvbox-dark-bg2:          #504945;        /* Background for darker elements */
+    gruvbox-dark-fg0:          #fbf1c7;        /* Foreground light color (off-white) */
+    gruvbox-dark-fg1:          #ebdbb2;        /* Foreground color */
+    gruvbox-dark-red-dark:     #cc241d;        /* Dark red accent color */
+    gruvbox-dark-red-light:    #fb4934;        /* Light red accent color */
+    gruvbox-dark-yellow-dark:  #d79921;        /* Dark yellow accent color */
+    gruvbox-dark-yellow-light: #fabd2f;        /* Light yellow accent color */
+    gruvbox-dark-gray:         #a89984;        /* Neutral gray color */
+
+    /* Accent colors (similar to the original color theme) */
+    gruvbox-dark-accent-0:     #d65d0e;        /* Orange accent */
+    gruvbox-dark-accent-1:     #b16286;        /* Purple accent */
+    gruvbox-dark-accent-2:     #458588;        /* Blue accent */
+    gruvbox-dark-accent-3:     #689d6a;        /* Green accent */
+    gruvbox-dark-accent-4:     #a9b665;        /* Light green accent */
+    gruvbox-dark-accent-5:     #7c6f64;        /* Darker grayish accent */
+    gruvbox-dark-accent-6:     #9d0006;        /* Red accent */
+    gruvbox-dark-accent-7:     #af3a03;        /* Orange-y red accent */
+    gruvbox-dark-accent-8:     #b8bb26;        /* Light yellowish accent */
+}

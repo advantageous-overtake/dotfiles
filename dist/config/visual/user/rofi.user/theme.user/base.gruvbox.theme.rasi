@@ -1,0 +1,39 @@
+/* gruvbox dark theme */
+/* ref: https://github.com/morhetz/gruvbox */
+
+@theme "base.gruvbox.color.rasi"
+
+* {
+    /* Foregrounds */
+    foreground-0: @gruvbox-dark-fg0;  /* @fbf1c7 - light foreground (off-white) */
+    foreground-1: @gruvbox-dark-fg1;  /* @ebdbb2 - regular foreground */
+    foreground-2: @gruvbox-dark-gray;  /* @a89984 - neutral gray */
+    foreground-3: @gruvbox-dark-accent-5;  /* @7c6f64 - darker grayish accent */
+    foreground-4: @gruvbox-dark-accent-4;  /* @a9b665 - light green accent */
+    foreground-5: @gruvbox-dark-accent-2;  /* @458588 - blue accent */
+    foreground-6: @gruvbox-dark-accent-3;  /* @689d6a - green accent */
+    foreground-7: @gruvbox-dark-accent-0;  /* @d65d0e - orange accent */
+    foreground-8: @gruvbox-dark-accent-1;  /* @b16286 - purple accent */
+
+    /* Backgrounds */
+    background-0: @gruvbox-dark-bg0;      /* @282828 - base background color */
+    background-1: @gruvbox-dark-bg2;      /* @504945 - background for darker elements */
+    background-2: @gruvbox-dark-bg0-hard; /* @1d2021 - darker background color */
+    background-3: @gruvbox-dark-bg0;      /* @282828 - base background color */
+    background-4: @gruvbox-dark-bg0;      /* @282828 - same base color for consistency */
+    background-5: @gruvbox-dark-bg2;      /* @504945 - background for darker elements */
+    background-6: @gruvbox-dark-accent-5;  /* @7c6f64 - darker grayish accent */
+    background-7: @gruvbox-dark-accent-4;  /* @a9b665 - light green accent */
+    background-8: @gruvbox-dark-accent-3;  /* @689d6a - green accent */
+
+    /* Accent colors */
+    accent-0: @gruvbox-dark-red-dark;     /* @cc241d - dark red accent color */
+    accent-1: @gruvbox-dark-red-light;    /* @fb4934 - light red accent color */
+    accent-2: @gruvbox-dark-yellow-dark;  /* @d79921 - dark yellow accent color */
+    accent-3: @gruvbox-dark-yellow-light; /* @fabd2f - light yellow accent color */
+    accent-4: @gruvbox-dark-gray;         /* @a89984 - neutral gray color */
+    accent-5: @gruvbox-dark-accent-5;     /* @7c6f64 - darker grayish accent */
+    accent-6: @gruvbox-dark-accent-6;     /* @9d0006 - red accent */
+    accent-7: @gruvbox-dark-accent-7;     /* @af3a03 - orange-y red accent */
+    accent-8: @gruvbox-dark-accent-8;     /* @b8bb26 - light yellowish accent */
+}
