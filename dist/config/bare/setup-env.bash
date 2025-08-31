@@ -18,6 +18,8 @@ declare -a OPTIONAL_PATHS=( "$HOME/util" "$HOME/.local/bin" )
 
 [ -d "/opt/openresty/bin" ] && OPTIONAL_PATHS+=( "/opt/openresty/bin" )
 
+[ -d "$HOME/.lmstudio/bin" ] && OPTIONAL_PATHS+=( "$HOME/.lmstudio/bin" )
+
 [ "$( executable_exists cargo )" = 1 ] && OPTIONAL_PATHS+=( "$HOME/.cargo/bin" )
 
 if [ "$( executable_exists luarocks )" = 1 ]; then
