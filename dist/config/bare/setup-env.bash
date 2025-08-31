@@ -8,8 +8,6 @@ declare -A DEFAULT_ENVIRONMENT=(
     [SSH_AUTH_SOCK]="$( gpgconf --list-dirs agent-ssh-socket 2> /dev/null )"
     [SSH_AGENT_PID]="$( pgrep "gpg-agent" )"
     [GPG_TTY]="$( tty )"
-
-    [LIBCLANG_PATH]="/usr/local/lib"
 )
 
 # Inherit previously set $PATH from /etc/profile
