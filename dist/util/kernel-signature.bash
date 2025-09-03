@@ -6,8 +6,8 @@ KEYCHAIN_PATH="/usr/share/secureboot/keychain"
 
 [ ! -d "$KEYCHAIN_PATH" ] && printf "keychain directory not found: %s\n" "$KEYCHAIN_PATH" && exit 1
 
-preset_kernel="$(awk -F'-' '{ print $1 }' - <<< ${MKINITCPIO_PROCESS_PRESET})"
-preset_name="$(awk -F'-' '{ print $2 }' - <<< ${MKINITCPIO_PROCESS_PRESET})"
+preset_kernel="$(awk -F'-' '{ print $1 }' - <<< "${MKINITCPIO_PROCESS_PRESET}")"
+preset_name="$(awk -F'-' '{ print $2 }' - <<< "${MKINITCPIO_PROCESS_PRESET}")"
 
 function option() {
   grep -Po "^(${preset_name}|ALL)_${1}=(\K.*)$" "/etc/mkinitcpio.d/${preset_kernel}.preset"  | tr -d '"'
